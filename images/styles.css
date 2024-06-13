@@ -1,0 +1,56 @@
+/*{ Linkler }*/
+a:link { text-decoration: none; color:#FFFFFF; }
+a:visited { text-decoration: none; color:#FFFFFF; }
+a:active { text-decoration: none; color:#CCCCCC; }
+a:hover { text-decoration: underline; color:#FF0000; background-image:url('../../Resimler/linkback.gif'); POSITION: relative; }
+
+/*{ Sag ve sol bloklar }*/
+.blok_baslik { font-family: tahoma; font-size: 70%; color: #FFFFFF; }
+.blok_font { font-family:tahoma; font-size:11px; color:#FFFFFF; }
+
+/*{ Orta tablolar }*/
+.tablo_baslik { font-family: tahoma; font-size: 70%; color: #FFFFFF; }
+.tablo_font { font-family:tahoma; font-size:11px; color:#FFFFFF; }
+.tabloalt_font { font-family:tahoma; font-size:10px; color:#FFFFFF; }
+.tablo_cevre { border-width:1px; border-style:solid; border-collapse:collapse; border-color:#FF0000; }
+
+/*{ Copy yazisi & saat }*/
+.copyRtTxt { font-family: tahoma; font-size: 10px; color: #FFFFFF; }
+.copyRtTxt2 { font-family: tahoma; font-size: 10px; color: #FFFFFF; }
+.saat_font { font-family: tahoma; font-size: 10px; color: #FFFFFF; }
+
+/*{ Butonlar }*/
+.buton { font-family:verdana; font-size: 11px; color:#FFFFFF; background:#660000; 
+border-width:1px; border-color:#FF0000; page-break-inside: avoid; border-style:solid; border-collapse:collapse; }
+
+/*{ Formlar }*/
+.form { font-family:verdana; color:#FFFFFF; font-size: 11px; background:#660000; border-width:1px; border-color:#FF0000; 
+page-break-inside: avoid; border-style:solid; border-collapse:collapse; }
+
+/*{ Kutu yazi }*/
+.kutu_yazi { font-family:verdana; color:#FFFFFF; background:#660000; border-width:1px; border-color:#FF0000; 
+page-break-inside: avoid; border-style:solid; border-collapse:collapse; }
+
+.alinti { font-family:verdana; font-size: 9px; color:#000000; background:#660000; border-width:1px; border-color:#FF0000; 
+page-break-inside: avoid; border-style:solid; border-collapse:collapse; }
+
+/*Burdan asagi uyelikteki formlarin aciklamalari */
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+background-color: lightyellow;
+width: 600px; /*Default width of hint.*/ 
+padding: 3px;
+border:1px solid black;
+font:normal 11px Verdana;
+line-height:18px;
+z-index:100;
+border-right: 3px solid black;
+border-bottom: 3px solid black;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+/*color: navy;*/
+font-size:11px;
+}
